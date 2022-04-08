@@ -10,7 +10,7 @@
 	"owner": "{{.owner}}",
 	"shared": true,
     "dashboardFilter": {
-      "timeframe": "-1h",
+      "timeframe": "-2h",
       "managementZone": {
 		"id": "{{.mzid}}",
 		"name": "{{.appname}}"
