@@ -2,3 +2,4 @@ config:
     - mz-1: "lab-mz.json"
 mz-1:
     - name: "{{.Env.Appname}}"
+    - application_enable: "{{.Env.app_enable}}"
